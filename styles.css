@@ -1,0 +1,47 @@
+
+ <section id="features">
+ <div class="container">
+     <h2 class="text-center mb-5">Why Choose Our Products?</h2>
+     <div class="row">
+         <div class="col-md-4 feature-item">
+             <i class="fas fa-flask"></i>
+             <h3>Innovative Ingredients</h3>
+             <p>Our products are formulated with cutting-edge ingredients like hyaluronic acid and vitamin C to provide visible results.</p>
+         </div>
+         <div class="col-md-4 feature-item">
+             <i class="fas fa-bullseye"></i>
+             <h3>Targeted Solutions</h3>
+             <p>We offer specialized solutions for acne, aging, dryness, and sensitive skin to address your unique skincare needs.</p>
+         </div>
+         <div class="col-md-4 feature-item">
+             <i class="fas fa-seedling"></i>
+             <h3>Sustainability and Ethics</h3>
+             <p>Committed to the environment, our products feature eco-friendly packaging and are 100% cruelty-free.</p>
+         </div>
+     </div>
+ </div>
+</section>
+
+#features {
+    padding: 50px 0;
+    background-color:pink;
+}
+.feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.feature-item i {
+    font-size: 40px;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.feature-item p {
+    font-size: 16px;
+    color: #666;
+    
+}

@@ -1,30 +1,50 @@
+#navbar {
+    background-color: white;
+}
+.navbar-nav .nav-link.active {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: palevioletred;
+    padding: 5px 10px;
+}
+.navbar-brand {
+    color: palevioletred;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 35px;
+font-weight: bolder;
 
- <section id="features">
- <div class="container">
-     <h2 class="text-center mb-5">Why Choose Our Products?</h2>
-     <div class="row">
-         <div class="col-md-4 feature-item">
-             <i class="fas fa-flask"></i>
-             <h3>Innovative Ingredients</h3>
-             <p>Our products are formulated with cutting-edge ingredients like hyaluronic acid and vitamin C to provide visible results.</p>
-         </div>
-         <div class="col-md-4 feature-item">
-             <i class="fas fa-bullseye"></i>
-             <h3>Targeted Solutions</h3>
-             <p>We offer specialized solutions for acne, aging, dryness, and sensitive skin to address your unique skincare needs.</p>
-         </div>
-         <div class="col-md-4 feature-item">
-             <i class="fas fa-seedling"></i>
-             <h3>Sustainability and Ethics</h3>
-             <p>Committed to the environment, our products feature eco-friendly packaging and are 100% cruelty-free.</p>
-         </div>
-     </div>
- </div>
-</section>
 
+}
+.img-fluid {
+    height: 570px;
+    width: 100%;
+}
+.content-overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.img-container {
+    position: relative;
+}
+.btn {
+    color: palevioletred;
+    border-color: navajowhite;
+}
+.kmt {
+    height: auto;
+    width: 100%;
+    background-color: pink;
+}
 #features {
     padding: 50px 0;
-    background-color:pink;
+    background-color: #f9f9f9;
 }
 .feature-item {
     text-align: center;
@@ -38,10 +58,334 @@
 .feature-item h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    
 }
 .feature-item p {
     font-size: 16px;
     color: #666;
-    
 }
+.kmt1 {
+    position: absolute;
+    font-size: 32px;
+    color: palevioletred;
+    border-radius: 10%;
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.container {
+    margin-top: 0%;
+    margin-left: 0%;
+    padding: 5px 10px;
+}
+.card {
+    width: 95%;
+    margin-top: 10%;
+}
+.card {
+    margin: 20px;
+}
+.col-md-4 {
+    margin-top: 7%;
+}
+.card i {
+    font-size: 40px;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+.kmt3 {
+    height: auto;
+    width: 100%;
+    background-color: pink;
+    padding: 20px;
+}
+.card-body {
+    background-color: white;
+}
+.card-title {
+    font-size: 25px;
+}
+#contact {
+    background-color: pink;
+    padding: 50px 0;
+}
+.contact-info p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+.contact-info i {
+    color: #ff69b4;
+    margin-right: 10px;
+}
+.btn-outline-secondary {
+    color: #ff69b4;
+    border-color: #ff69b4;
+}
+.btn-outline-secondary:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+#navbar {
+    background-color: white;
+}
+.navbar-nav .nav-link.active {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: palevioletred;
+    padding: 5px 10px;
+}
+.navbar-brand {
+    color: palevioletred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+   
+
+}
+#about {
+            text-align: center;
+            padding: 50px 0;
+            background-color: pink;
+        }
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .about-content h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .btn-primary {
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #c0392b;
+        }
+        #contact {
+            background-color: pink;
+            padding: 50px 0;
+        }
+        .contact-info p {
+            font-size: 18px;
+            color: #666;
+            margin: 10px 0;
+        }
+        .contact-info i {
+            color: #ff69b4;
+            margin-right: 10px;
+        }
+        .btn-outline-secondary {
+            color: #ff69b4;
+            border-color: #ff69b4;
+        }
+        .btn-outline-secondary:hover {
+            background-color: #ff69b4;
+            color: white;
+        }
+        #pricing {
+            text-align: center;
+            background-color: pink;
+            padding: 50px 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .pricing-plan {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px 20px;
+            margin: 20px;
+            display: inline-block;
+            width: 30%;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .price {
+            font-size: 28px;
+            color: #e74c3c;
+            margin: 20px 0;
+        }
+        .features {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+        .features li {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .sign-up {
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .sign-up:hover {
+            background-color: #c0392b;
+        }
+        #navbar {
+            background-color: white;
+        }
+        .navbar-nav .nav-link.active {
+            font-size: 23px;
+            font-family: 'Times New Roman', Times, serif;
+            color: palevioletred;
+            padding: 5px 10px;
+        }
+        .navbar-brand {
+            color: palevioletred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+   
+        }
+        .img-fluid {
+            height: 570px;
+            width: 100%;
+        }
+        #contact {
+            background-color: pink;
+            padding: 50px 0;
+        }
+        .contact-info p {
+            font-size: 18px;
+            color: #666;
+            margin: 10px 0;
+        }
+        .contact-info i {
+            color: #ff69b4;
+            margin-right: 10px;
+        }
+        .btn-outline-secondary {
+            color: #ff69b4;
+            border-color: #ff69b4;
+        }
+        .btn-outline-secondary:hover {
+            background-color: #ff69b4;
+            color: white;
+        }
+        #testimonials {
+        text-align: center;
+        padding: 50px 0;
+        background-color: pink;
+    }
+    .testimonial {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 30px;
+        margin: 20px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .testimonial-content {
+        margin-bottom: 20px;
+    }
+    .testimonial-content img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    .quote {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+    .customer-info {
+        font-style: normal;
+        color: #888;
+        font-size: 16px;
+    }
+    #navbar {
+        background-color: white;
+    }
+    .navbar-nav .nav-link.active {
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+        color: palevioletred;
+        padding: 5px 10px;
+    }
+    .navbar-brand {
+        color: palevioletred;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 35px;
+font-weight: bolder;
+
+    }
+    .img-fluid {
+        height: 570px;
+        width: 100%;
+    }
+    #testimonials {
+    text-align: center;
+    padding: 50px 0;
+    background-color: pink;
+}
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.testimonial-content {
+    margin-bottom: 20px;
+}
+.testimonial-content img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.quote {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.customer-info {
+    font-style: normal;
+    color: #888;
+    font-size: 16px;
+}
+#contact {
+        background-color: pink;
+        padding: 50px 0;
+    }
+    .contact-info p {
+        font-size: 18px;
+        color: #666;
+        margin: 10px 0;
+    }
+    .contact-info i {
+        color: #ff69b4;
+        margin-right: 10px;
+    }
+    .btn-outline-secondary {
+        color: #ff69b4;
+        border-color: #ff69b4;
+    }
+    .btn-outline-secondary:hover {
+        background-color: #ff69b4;
+        color: white;
+    }
